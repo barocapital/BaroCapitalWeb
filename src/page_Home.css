@@ -1,0 +1,126 @@
+@import "./GlobalCss.css";
+
+.div-principal {
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+@media screen and (max-width: 650px) {
+    .div-principal {
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+}
+
+.image-comingsoon {
+    padding-top: 50px;
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+@media screen and (max-width: 650px) {
+    .image-comingsoon {
+        margin-top: 100px;
+    }
+}
+
+.img-logo-web {
+    width: 100%;
+
+}
+
+.img-line {
+    width: 100%;
+    display: block;
+}
+
+@media screen and (max-width: 650px) {
+    .img-logo-web {
+        width: 100%;
+    }
+}
+
+.col {
+    width: 100%;
+    display: flex;
+}
+
+.div-size {
+    max-width: 50%;
+}
+
+@media screen and (max-width: 800px) {
+    .div-size {
+        max-width: 100%;
+    }
+}
+
+.iframe-video {
+    width: 100%;
+    height: 600px;
+}
+
+.text {
+    width: 500px;
+}
+
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+.wrapper2 {
+    grid-template-columns: repeat(2, 1fr);
+}
+@media screen and (max-width: 1000px) {
+    .wrapper {        grid-template-columns: repeat(2, 1fr);    }
+}
+@media screen and (max-width: 600px) {
+    .wrapper {        grid-template-columns: repeat(1, 1fr);    }
+}
+.td-founders {
+    width: 100%;
+    padding: 10%;    
+}
+.image-founder {
+}
+/*
+
+
+.tr-founders {
+    align-items: center;
+    margin: auto;
+}
+.td-founders {
+    padding: 30px;
+    border:3px solid green;   
+}
+*/
+
+
+
+
+body,
+html {
+    height: 100%;
+    line-height: 1.8;
+}
+
+/* Full height image header */
+.bgimg-1 {
+    background-position: center;
+    background-size: cover;
+    background-image: url("./images/ComingSoon.png");
+    min-height: 100%;
+}
+
+.div-about {
+    padding: 128px 16px;
+}
+
+.w3-bar .w3-button {
+    padding: 16px;
+}

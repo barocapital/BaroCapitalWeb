@@ -1,23 +1,34 @@
-import logo from './logo.svg';
+import { NavBar } from "./components/NavBar";
+import { Banner } from "./components/Banner";
+import { Skills } from "./components/Skills";
+import { Projects } from "./components/Projects";
+import { Contact } from "./components/Contact";
+import { Footer } from "./components/Footer";
+import Home from './page_Home';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+
+//npm install react-bootstrap bootstrap
+//npm install react-bootstrap-icons --save
+//npm install animate.css --save
+//npm install react-on-screen
+//$ npm install react-multi-carousel
+//$ npm install react-router-hash-link
+//$ npm install react-mailchimp-subscribe
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NavBar />
+      <Home />
+      {/*
+      <Banner />
+      <Skills />
+      <Projects />
+      <Contact />
+       */}
+      <Footer />
     </div>
   );
 }
