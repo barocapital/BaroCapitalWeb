@@ -1,0 +1,10 @@
+Dependencies:
+npm install react-dom
+npm install react-bootstrap bootstrap
+npm install react-bootstrap-icons --save
+npm install animate.css --save
+npm install react-on-screen
+npm install react-multi-carousel
+npm install react-router-hash-link
+npm install react-mailchimp-subscribe
+
