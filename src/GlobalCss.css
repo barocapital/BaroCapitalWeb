@@ -1,0 +1,203 @@
+:root {
+    --color100: white;
+    --color200: yellow;
+    --color300: orange;
+        --color310: #DD7F44;
+    --color400: red;
+    --color500: green;
+    --color600: brown;
+    --color700: purple;
+    --color800: blue;
+    --color900: black;
+        --color910: #1b2124;
+        --color920: gray;
+        --color930: #181819;
+}
+
+.color100{ color:var(--color100);}
+.color200{ color:var(--color200);}
+.color300{ color:var(--color300);}
+.color310{ color:var(--color310);}
+.color400{ color:var(--color400);}
+.color500{ color:var(--color500);}
+.color600{ color:var(--color600);}
+.color700{ color:var(--color700);}
+.color800{ color:var(--color800);}
+.color900{ color:var(--color900);}
+.color910{ color:var(--color910);}
+.color920{ color:var(--color920);}
+
+.backColor100{ background-color:var(--color100);}
+.backColor200{ background-color:var(--color200);}
+.backColor300{ background-color:var(--color300);}
+.backColor310{ background-color:var(--color310);}
+.backColor400{ background-color:var(--color400);}
+.backColor500{ background-color:var(--color500);}
+.backColor600{ background-color:var(--color600);}
+.backColor700{ background-color:var(--color700);}
+.backColor800{ background-color:var(--color800);}
+.backColor900{ background-color:var(--color900);}
+.backColor910{ background-color:var(--color910);}
+.backColor920{ background-color:var(--color920);}
+
+.font10 { font-size: 10px; }
+    .font15 { font-size: 15px; }
+.font20 { font-size: 20px; }
+    .font25 { font-size: 25px; }
+.font30 { font-size: 30px; }
+.font40 { font-size: 40px; }
+.font50 { font-size: 50px; }
+.font60 { font-size: 60px; }
+.font70 { font-size: 70px; }
+
+.text1{ font-size: 60px; }
+@media screen and (max-width: 1280px) { .text1{ font-size: 50px; }}
+@media screen and (max-width: 1024px) { .text1{ font-size: 40px; }}
+@media screen and (max-width: 800px) { .text1{  font-size: 40px; }}
+@media screen and (max-width: 600px) { .text1{  font-size: 45px; }}
+
+.text2{ font-size: 50px; }
+@media screen and (max-width: 1280px) { .text2{ font-size: 40px; }}
+@media screen and (max-width: 1024px) { .text2{ font-size: 30px; }}
+@media screen and (max-width: 800px) { .text2{  font-size: 30px; }}
+@media screen and (max-width: 600px) { .text2{  font-size: 35px; }}
+
+
+.block { display: block; }
+.flex { display: flex; }
+
+.float-left { float: left; }
+.clear-both { clear: both; }
+
+.flex-responsive {
+    display:flex;
+}
+@media screen and (max-width: 800px) { 
+    .flex-responsive{
+        display:block;
+    }
+}
+
+.center{
+    margin-left: auto;		
+    margin-right: auto;	
+    text-align: center;
+}
+
+.ancla { 
+    padding-top: 35%;
+    margin-top: -35%;
+}
+    @media screen and (max-width: 770px) { 
+        .ancla { 
+            padding-top: 60%;
+            margin-top: -60%;
+        }
+    }
+.ancla2 { 
+    padding-top: 15%;
+    margin-top: -15%;
+}
+    @media screen and (max-width: 770px) { 
+        .ancla2 { 
+            padding-top: 40%;
+            margin-top: -40%;
+        }
+    }
+    
+.i { font-style: italic; }
+.b { font-weight: bold; }
+
+.padding1 { padding: 1px; }
+.padding2 { padding: 2px; }
+.padding5 { padding: 5px; }
+.padding10 { padding: 10px; }
+.padding20 { padding: 20px; }
+.padding30 { padding: 30px; }
+
+.margin1 { margin:1px; }
+.margin2 { margin:2px; }
+.margin5 { margin:5px; }
+.margin10 { margin:10px; }
+.margin20 { margin:20px; }
+.margin30 { margin:30px; }
+
+.border { border: 3px solid green; }
+
+/************ Default Css ************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 75px;
+}
+
+body {
+  font-weight: 400;
+  overflow-x: hidden;
+  position: relative;
+  font-family: 'Centra', sans-serif !important;
+  color: var(--color100) !important;
+  background-color: var(--color910) !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+}
+
+p,
+a,
+li,
+button,
+ul {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+button {
+  border: 0;
+  background-color: transparent;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+@media (min-width:1700px) {
+  main .container {
+    max-width: 100%;
+    padding: 0 150px;
+  }
+}
+
+p.success {
+  color: green;
+}
+
+p.danger {
+  color: red;
+}
