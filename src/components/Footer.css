@@ -1,0 +1,39 @@
+@import '../GlobalCss.css';
+
+.div-separator {
+    background: var(--color100);
+    height: 2px;
+    width: 100%;
+}
+
+.div-container {
+    background: var(--color930);
+    width: 100%;
+    padding:10px;
+/*    padding-left: 70px;
+    padding-right: 70px;
+*/
+}
+.div-footer{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.pad10 {
+    padding-top: 20px;
+}
+
+.icon-socials {
+    margin: 10px;
+    vertical-align: middle;
+}
+
+.icon-discord {
+    width: 70px !important;
+    height: 70px;
+}
+
+.icon-twitter {
+    width: 50px !important;
+    height: 50px;
+}
